@@ -1,0 +1,26 @@
+.board {
+    border: solid 2px black;
+    font-size: 180%;
+    font-weight: bold;
+  }
+  
+  .board td {
+    text-align: center;
+    width: 2em;
+    height: 2em;
+  }
+  
+  .message {
+    padding: 2em;
+  }
+  
+  .message.yes {
+    color: white;
+    background-color: magenta;
+  }
+  
+  .message.error {
+    color: white;
+    background-color: cyan;
+  }
+  
